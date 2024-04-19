@@ -355,14 +355,30 @@ To run this experiment
 
   \item Starting with the helicopter parallel to the ground, run the Simulink model for 60 seconds using the controller $K$ you designed.
     \item Optimize your controller by comparing the helicopter's motion to the reference and changing $K$ accordingly.
-    \item Give your best $K$ and mention whether you used pole placement or LQR. If you used pole placement give the poles you selected. If you used LQR, give the Q and R matrices. (20 points) \vspace{0.5 cm}\textbf{Best \( K \)=}\\
-\vspace{2cm} % Space for the answer
+    \item Give your best $K$ and mention whether you used pole placement or LQR. If you used pole placement give the poles you selected. If you used LQR, give the Q and R matrices. (20 points)
+    
+    \[K=\begin{bmatrix}
+    $418.0509$ & $-85.1420$ & $180.7122$ & $-42.1841$\\
+    $196.0869$ & $180.9719$ & $89.1349$ & $93.0734$\end{bmatrix}\]
 
 \textbf{LQR or Pole Placement?}\\
 
-\vspace{1cm} % Space for the answer
+\vspace{0.5cm}
+
+LQR
+
+\vspace{0.5cm}
 
 \textbf{Poles or \( Q \) and \( R \) matrices\\}
+
+\[Q=\begin{bmatrix}
+$2250$ & $0$ & $0$ & $0$\\
+$0$ & $400$ & $0$ & $0$\\
+$0$ & $0$ & $25$ & $0$\\
+$0$ & $0$ & $0$ & $25$
+\end{bmatrix}\]
+
+\[R=0.01\]
 
 \vspace{1cm} % Space for the answer
 
