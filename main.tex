@@ -386,10 +386,27 @@ $0$ & $0$ & $0$ & $25$
 \newpage
     
     \item Plot the system's response to your best controller both in pitch and yaw. (20 points)
-    \vspace{9 cm}
+    
+    \centering
+  \includegraphics[width=5in]{e1_square.png}
     
      \item Repeat the procedure but now use a \textit{sine} waveform in both signal generators. Give your best K, poles or Q and R, and include the corresponding plots. (30 points)
 
+ \[K=\begin{bmatrix}
+    $418.0509$ & $-85.1420$ & $180.7122$ & $-42.1841$\\
+    $196.0869$ & $180.9719$ & $89.1349$ & $93.0734$\end{bmatrix}\]
+
+\[Q=\begin{bmatrix}
+$2250$ & $0$ & $0$ & $0$\\
+$0$ & $400$ & $0$ & $0$\\
+$0$ & $0$ & $25$ & $0$\\
+$0$ & $0$ & $0$ & $25$
+\end{bmatrix}\]
+
+\[R=0.01\]
+
+    \centering
+  \includegraphics[width=5in]{e1_sine.png}
 \newpage
 
     
@@ -432,23 +449,42 @@ $0$ & $0$ & $0$ & $25$
 
 Note: Although the laser is low-powered, we will take standard laser-safety measures. The laser setup will be operated only after all teams submit their functions and best K. We ask you to please stand while the laser is in use to prevent any potential eye exposure (direct or through reflections).
 
-\vspace{1cm}
+\newpage
 
- \textbf{Best \( K \)=}\\
-\vspace{1cm} % Space for the answer
+ \textbf{Best \( K \)=}
+ 
+ \vspace{0.5cm}
+ 
+  \[K=\begin{bmatrix}
+    $657.2063$ & $-204.3354$ & $269.9248$ & $-70.9311$ & $554.2192$ & $-189.9849$\\
+  	$308.6162$ & $327.5624$ & $134.1469$ & $135.9388$ & $246.3156$ & $257.7629$\end{bmatrix}\]
 
 \textbf{LQR or Pole Placement?}\\
 
-\vspace{0.5 cm} % Space for the answer
+
+ \vspace{0.5cm}
+
+Pole placement
+
+
+ \vspace{0.5cm}
 
 \textbf{Poles or \( Q \) and \( R \) matrices\\}
 
-\vspace{2cm} % Space for the answer
+
+ \vspace{0.5cm}
+
+Poles = $0.2*[-10, -11, -12, -13, -14, -15]$
 
 
-\clearpage
-
+ \vspace{0.5cm}
 
 \textbf{Add a picture of your artwork below.}\\
+
+
+ \vspace{0.5cm}
+
+\centering
+  \includegraphics[width=3in]{e2.png}
 
   \end{document}
